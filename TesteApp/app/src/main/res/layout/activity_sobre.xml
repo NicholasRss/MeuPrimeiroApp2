@@ -8,8 +8,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="390dp"
-        android:layout_height="710dp"
+        android:layout_width="401dp"
+        android:layout_height="704dp"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -32,7 +32,7 @@
                 android:layout_marginTop="96dp"
                 android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintHorizontal_bias="0.326"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@mipmap/ic_launcher_round" />
@@ -40,13 +40,14 @@
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="230dp"
-                android:layout_height="61dp"
+                android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Nicholas Rodrigues De Sousa"
+                android:text="Autor do Aplicativo"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.322"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -57,9 +58,11 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
-                android:text="TextView"
+                android:text="04/10/2019 - 20:00"
+                android:textAlignment="center"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.368"
+                app:layout_constraintHorizontal_bias="0.373"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -70,9 +73,11 @@
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
-                android:text="TextView"
+                android:text="Nicholas Rodrigues"
+                android:textAlignment="center"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.297"
+                app:layout_constraintHorizontal_bias="0.306"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -83,9 +88,11 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
-                android:text="TextView"
+                android:text="Versão: 1.0.0"
+                android:textAlignment="center"
+                android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.368"
+                app:layout_constraintHorizontal_bias="0.373"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
         </androidx.constraintlayout.widget.ConstraintLayout>
